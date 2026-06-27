@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sal G. — Personal Site</title>
+  <meta name="description" content="Personal bio page of Sal G." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <main class="card">
+    <div class="avatar" aria-hidden="true">SG</div>
+    <h1>Sal G.</h1>
+    <p class="tagline">Builder · Tinkerer · Lifelong learner</p>
+    <p class="bio">
+      Hey, I'm Sal. This is my little corner of the web — a place to share what
+      I'm working on, what I'm thinking about, and what I'm building next.
+      Always experimenting, always curious.
+    </p>
+
+    <div class="links">
+      <a class="link-btn" href="https://github.com/quantial1" target="_blank" rel="noopener">
+        <span class="icon">⌥</span> GitHub
+      </a>
+      <a class="link-btn" href="#" target="_blank" rel="noopener">
+        <span class="icon">in</span> LinkedIn
+      </a>
+      <a class="link-btn" href="#" target="_blank" rel="noopener">
+        <span class="icon">✦</span> X / Twitter
+      </a>
+      <a class="link-btn" href="mailto:you@example.com">
+        <span class="icon">✉</span> Email
+      </a>
+    </div>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>
+        I care about clean ideas, useful tools, and building things that make
+        everyday life a little smoother. When I'm not at a keyboard, you'll find
+        me chasing the next interesting problem to solve.
+      </p>
+    </section>
+
+    <footer>
+      <span>Built with ☕ &amp; curiosity</span>
+      <span class="dot">·</span>
+      <span id="year"></span>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
