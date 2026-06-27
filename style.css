@@ -58,17 +58,13 @@ body {
 }
 
 .avatar {
-  width: 96px;
-  height: 96px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   margin: 0 auto 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 32px;
-  font-weight: 700;
-  color: #fff;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  display: block;
+  object-fit: cover;
+  border: 3px solid rgba(88,166,255,0.4);
   box-shadow: 0 8px 24px rgba(88,166,255,0.35);
 }
 
